@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-A-Compatible" content="IE=edge">
+    <title>Monoalphabetic Cipher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Monoalphabetic Cipher</h1>
+    <main>
+    <div class="container">
+        <label>
+            Enter string: 
+            <input id="input-str" class="input-str" type="text" required>
+            <button class="encrypt" onclick="encrypt()"><strong>Encrypt</strong></button>
+            <button class="decrypt" onclick="decrypt()"><strong>Decrypt</strong></button>
+            <div id="result" class="result-div hidden"></div>
+        </label>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
